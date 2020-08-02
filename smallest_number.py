@@ -14,6 +14,7 @@ def generator(start, end, number):
 def smallestNumber(list_numbers, index):
     list_numbers.sort()
     print("Sorted list of random numbers - " + str(list_numbers))
+    print("\n-------------------------------------------------------")
     return numberList[index - 1]
 
 
@@ -37,4 +38,5 @@ if nth_index > 500:
     exit()
 
 numberList = generator(low, high, size)
-print("Smallest " + str(nth_index) + "th number from random list is -  " + str(smallestNumber(numberList, nth_index)))
+print("\nSmallest " + str(nth_index) + "th number from random list is -  " + str(smallestNumber(numberList, nth_index)))
+print("\n-------------------------------------------------------")
