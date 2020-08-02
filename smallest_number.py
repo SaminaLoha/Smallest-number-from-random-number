@@ -25,6 +25,7 @@ if high < low:
     print("End range for sample should be greater than start range.\nChange values in inputData.py file!")
     exit()
 
+# size is kept as 500 as per problem statement to generate 500 random numbers
 size = 500
 if high - low < size:
     print("The range of numbers(sample size) should be greater than equal to 500.\nChange values in inputData.py file!")
